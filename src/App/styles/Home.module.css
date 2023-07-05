@@ -1,0 +1,17 @@
+.home {
+    min-height: 100vh;
+    background: radial-gradient(#303b37, #1a1f1d);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Quicksand';
+    padding-bottom: 20px;
+}
+.noData {
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: larger;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 40px;
+}

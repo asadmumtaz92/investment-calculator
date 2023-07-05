@@ -1,0 +1,138 @@
+.form {
+    background: linear-gradient(180deg, #307e6c, #2b996d);
+    flex-direction: column;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: flex;
+    width: 55%;
+}
+.row {
+    margin-bottom: 40px;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+.inputBox {
+    flex-direction: column;
+    margin: 0 20px;
+    display: flex;
+    flex: 1;
+}
+
+.label {
+    font-size: calc(1px + 2vmin);
+    text-transform: uppercase;
+    font-style: 'Roboto';
+    font-weight: 500;
+    margin-left: 3px;
+    color: #FFFFFF;
+    /* line-height: calc(1px + 2vmin); */
+}
+.ip {
+    background-color: transparent;
+    text-transform: capitalize;
+    border-color: lightgray;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: medium;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 5px;
+    height: 40px;
+    border: none;
+    border: 0.8px solid white;
+}
+.ip:focus-visible {
+    border: 0.8px solid aqua;
+    outline: none;
+}
+.error {
+    margin-right: 5px;
+    text-align: right;
+    font-size: small;
+    margin-top: 2px;
+    color: white;
+}
+.btnBox {
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+}
+.button {
+    background-color: transparent;
+    border: 0.8px solid white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin: 0px 20px;
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+.buttonReset {
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    display: flex;
+    width: 100%;
+    border: 0;
+    flex: 1;
+}
+.button:hover, .buttonReset:hover {
+    background-color: #FFFFFF;
+    color: #2b996d;
+}
+
+@media (min-width: 300px) and (max-width: 786px) {
+    .form {
+        margin: 10px auto;
+        width: 80%;
+    }
+    .row {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .inputBox {
+        margin-bottom: 20px;
+    }
+    .btnBox {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 787px) and (max-width: 1000px) {
+    .form {
+        margin: 10px auto;
+        width: 85%;
+    }
+    .row {
+        margin-bottom: 10px;
+        flex-direction: row;
+    }
+    .inputBox {
+        margin-bottom: 20px;
+    }
+    .btnBox {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+    .form {
+        margin: 10px auto;
+        width: 75%;
+    }
+    .btnBox {
+        margin-top: 10px;
+    }
+}

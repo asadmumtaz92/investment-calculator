@@ -1,0 +1,30 @@
+.header {
+    width: auto;
+    margin: 0px auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.image {
+    align-self: center;
+    width: 7rem;
+    height: 7rem;
+    object-fit: contain;
+    padding-top: 20px;
+}
+.slug {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    font-size: calc(12px + 2vmin);
+    font-weight: 700;
+    /* font-style: 'Roboto'; */
+    font-family: 'Quicksand';
+    /* font-family: 'Quicksand', sans-serif; */
+    margin-top: 10px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: calc(18px + 2vmin);
+
+}
