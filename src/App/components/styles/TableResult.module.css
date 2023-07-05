@@ -21,10 +21,10 @@
 .table tbody .td {
     border: 0.6px solid rgba(211, 211, 211, 0.239);
     font-size: 0.85rem;
-    padding-right: 8px;
     text-align: right;
     margin-top: 120px;
     padding: 10px 0px;
+    padding-right: 8px;
     color: #FFFFFF;
     border-top: 0;
 }
