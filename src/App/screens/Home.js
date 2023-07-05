@@ -43,7 +43,6 @@ const Home = () => {
         <div className={styles.home}>
             <Header title={`Investment calculator`} image={logo} />
             <Form inputDataHandler={inputDataHandler} reset={resetHandler} />
-            {/* {!data && <p className={styles.noData}>No investment calculator yet.</p>} */}
             {data
                 ? <TableResult result={yearlyData} />
                 : <p className={styles.noData}>No investment calculator yet.</p>
